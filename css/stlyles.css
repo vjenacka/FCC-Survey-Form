@@ -10,7 +10,75 @@
 }
 body{
     font-family: 'Roboto', sans-serif;
+    background-color: #ffa726;
 }
-ul{
-    list-style: none;
+h1{
+    text-align: center;
+    padding: 4vh 0;
+}
+main{
+    width: 70%;
+    margin: 1vh auto;
+    padding: 20px;
+    background-color: #f3f3f3;
+    border-radius: 5px;
+}
+main p{
+    text-align: center;
+    padding: 10px 0;
+}
+form{
+    width: 70%;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+form input{
+    border: 1px solid gray;
+}
+form div{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+form div :nth-child(2){
+    margin-left: 10px;
+}
+input[type='name'],input[type='email'],input[type='number']{
+    width: 280px;
+    padding: 6px;
+}
+#radio{
+    margin-bottom: 0 !important;
+}
+#radio div{
+    margin-left: 5px;
+}
+label[for='radio'], label[for='checkbox']{
+    text-align: right;
+}
+#checkbox{  
+    display: flex;
+    flex-direction: column;
+}
+#checkbox div{
+    display: flex;
+    margin: 5px 0;
+}
+textarea{
+    width: 300px;
+    padding: 5px;
+    height: 70px;
+    border: 1px solid grey;
+}
+button{
+    display: block;
+    margin: 0 auto;
+    padding: 10px 15px;
+    background: #2196f3;
+    color: #eee;
+    border-radius: 3px;
+}
+button:hover{
+    background: #1e88e5;
+    cursor: pointer;
 }
