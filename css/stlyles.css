@@ -1,0 +1,16 @@
+/*Imports*/
+/*Google fonts*/
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+/*Css reset*/
+*{
+    padding: 0;
+    margin: 0;
+    border: none;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+ul{
+    list-style: none;
+}
